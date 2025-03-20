@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 === Run information ===\
+\
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \\"weka.core.EuclideanDistance -R first-last\\""\
+Relation:     contact-lenses\
+Instances:    24\
+Attributes:   5\
+              age\
+              spectacle-prescrip\
+              astigmatism\
+              tear-prod-rate\
+              contact-lenses\
+Test mode:    split 66.0% train, remainder test\
+\
+=== Classifier model (full training set) ===\
+\
+IB1 instance-based classifier\
+using 1 nearest neighbour(s) for classification\
+\
+\
+Time taken to build model: 0 seconds\
+\
+=== Evaluation on test split ===\
+\
+Time taken to test model on test split: 0 seconds\
+\
+=== Summary ===\
+\
+Correctly Classified Instances           4               50      %\
+Incorrectly Classified Instances         4               50      %\
+Kappa statistic                          0.2195\
+Mean absolute error                      0.3385\
+Root mean squared error                  0.4513\
+Relative absolute error                 76.4026 %\
+Root relative squared error             84.6688 %\
+Total Number of Instances                8     \
+\
+=== Detailed Accuracy By Class ===\
+\
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\
+                 0.250    0.000    1.000      0.250    0.400      0.378    1.000     1.000     soft\
+                 0.000    0.143    0.000      0.000    0.000      -0.143   0.857     0.500     hard\
+                 1.000    0.600    0.500      1.000    0.667      0.447    0.967     0.917     none\
+Weighted Avg.    0.500    0.243    0.688      0.500    0.450      0.339    0.970     0.906     \
+\
+=== Confusion Matrix ===\
+\
+ a b c   <-- classified as\
+ 1 1 2 | a = soft\
+ 0 0 1 | b = hard\
+ 0 0 3 | c = none\
+\
+}

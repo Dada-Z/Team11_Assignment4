@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 === Run information ===\
+\
+Scheme:       weka.classifiers.rules.OneR -B 6\
+Relation:     contact-lenses\
+Instances:    24\
+Attributes:   5\
+              age\
+              spectacle-prescrip\
+              astigmatism\
+              tear-prod-rate\
+              contact-lenses\
+Test mode:    evaluate on training data\
+\
+=== Classifier model (full training set) ===\
+\
+tear-prod-rate:\
+	reduced	-> none\
+	normal	-> soft\
+(17/24 instances correct)\
+\
+\
+Time taken to build model: 0 seconds\
+\
+=== Evaluation on training set ===\
+\
+Time taken to test model on training data: 0 seconds\
+\
+=== Summary ===\
+\
+Correctly Classified Instances          17               70.8333 %\
+Incorrectly Classified Instances         7               29.1667 %\
+Kappa statistic                          0.5   \
+Mean absolute error                      0.1944\
+Root mean squared error                  0.441 \
+Relative absolute error                 52.7933 %\
+Root relative squared error            103.9561 %\
+Total Number of Instances               24     \
+\
+=== Detailed Accuracy By Class ===\
+\
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\
+                 1.000    0.368    0.417      1.000    0.588      0.513    0.816     0.417     soft\
+                 0.000    0.000    ?          0.000    ?          ?        0.500     0.167     hard\
+                 0.800    0.000    1.000      0.800    0.889      0.775    0.900     0.925     none\
+Weighted Avg.    0.708    0.077    ?          0.708    ?          ?        0.816     0.693     \
+\
+=== Confusion Matrix ===\
+\
+  a  b  c   <-- classified as\
+  5  0  0 |  a = soft\
+  4  0  0 |  b = hard\
+  3  0 12 |  c = none\
+\
+}

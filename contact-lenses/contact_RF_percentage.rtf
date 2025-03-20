@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 === Run information ===\
+\
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1\
+Relation:     contact-lenses\
+Instances:    24\
+Attributes:   5\
+              age\
+              spectacle-prescrip\
+              astigmatism\
+              tear-prod-rate\
+              contact-lenses\
+Test mode:    split 66.0% train, remainder test\
+\
+=== Classifier model (full training set) ===\
+\
+RandomForest\
+\
+Bagging with 100 iterations and base learner\
+\
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities\
+\
+Time taken to build model: 0.01 seconds\
+\
+=== Evaluation on test split ===\
+\
+Time taken to test model on test split: 0 seconds\
+\
+=== Summary ===\
+\
+Correctly Classified Instances           4               50      %\
+Incorrectly Classified Instances         4               50      %\
+Kappa statistic                          0.2558\
+Mean absolute error                      0.3641\
+Root mean squared error                  0.4897\
+Relative absolute error                 82.1828 %\
+Root relative squared error             91.8678 %\
+Total Number of Instances                8     \
+\
+=== Detailed Accuracy By Class ===\
+\
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\
+                 0.250    0.000    1.000      0.250    0.400      0.378    1.000     1.000     soft\
+                 0.000    0.286    0.000      0.000    0.000      -0.218   0.571     0.250     hard\
+                 1.000    0.400    0.600      1.000    0.750      0.600    0.933     0.917     none\
+Weighted Avg.    0.500    0.186    0.725      0.500    0.481      0.387    0.921     0.875     \
+\
+=== Confusion Matrix ===\
+\
+ a b c   <-- classified as\
+ 1 2 1 | a = soft\
+ 0 0 1 | b = hard\
+ 0 0 3 | c = none\
+\
+}
