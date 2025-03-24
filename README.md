@@ -1,9 +1,11 @@
 # Team11_Assignment4
 
-Perform classification tasks in WEKA using Explorer and Experimenter.
+For this assignment, we perform classification tasks using two different datasets in WEKA using Explorer and Experimenter.
 
 ## Dataset
 contact-lenses.arff and iris.arff
 
-## Output
-We save all WEKA output into TEXT format and summarized accuracy into CSV format.
+## Results
+- 'RawResults.csv' is generated from WEKA Experimenter using a contact-lenses dataset.
+- 'Results_Assignment_4.xlsx' is created to summarize the results of three runs from Explorer - Use training set, Crossvaliation with 10 folds, and Percentage split (set to 66%). Moreover, from the Experimenter using cross-validation. 
+- 'explorer-contact-lenses' and 'explorer-iris' folders include all WEKA output in TEXT format.
