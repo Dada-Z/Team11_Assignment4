@@ -16,3 +16,4 @@ contact-lenses.arff and iris.arff
 - 'RawResults.csv' is generated from WEKA Experimenter using a contact-lenses dataset.
 - 'Results_Assignment_4.xlsx' is created to summarize the results of three runs from Explorer - Use training set, Crossvaliation with 10 folds, and Percentage split (set to 66%). Moreover, from the Experimenter using cross-validation. 
 - 'explorer-contact-lenses' and 'explorer-iris' folders include all WEKA output in TEXT format.
+- 'Zhang_Zhang_Enersen_Anderson.pdf' is included in the zip file.
