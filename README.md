@@ -1,6 +1,13 @@
 # Team11_Assignment4
 
-For this assignment, we perform classification tasks using two different datasets in WEKA using Explorer and Experimenter.
+For this assignment, we perform classification tasks using two different datasets in WEKA using Explorer and Experimenter. The classificaiton methods used including follows:
+
+- OneR
+- Naive Bayes
+- J48
+- K-Nearest Neighbors
+- Randome Forest
+
 
 ## Dataset
 contact-lenses.arff and iris.arff
