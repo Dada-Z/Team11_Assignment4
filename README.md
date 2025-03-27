@@ -6,7 +6,7 @@ For this assignment, we perform classification tasks using two different dataset
 - Naive Bayes
 - J48
 - K-Nearest Neighbors
-- Randome Forest
+- Random Forest
 
 
 ## Dataset
